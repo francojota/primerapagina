@@ -1,0 +1,84 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+header{
+    display: flex;
+    
+}
+.logo{
+    text-align: center;
+    color: yellowgreen;
+    font-size: 30px;
+    margin-top: 0px;
+}
+.margen{
+    margin-bottom: 0px;
+}
+h2{
+    font-weight:700;
+}
+p{
+    font-weight:300;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.text-center{
+    text-align: center;
+}
+.precio{
+    font-size: 50px;
+    color: gold;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    /* especifica si los elementos "hijos" son obligados a permanecer en una misma línea o pueden fluir en varias líneas */
+}
+.columna{
+    background:#ff7272 ;
+    color:#202040;
+    border: 1px solid #120136 ;
+    padding: 10px;
+    margin: 0px auto;
+    border-radius: 5px;
+    box-shadow:6px 6px 5px rgb(241, 210, 142);
+    text-align: center;
+    /* box-shadow:-10px -10px black; */
+    width: 24%;
+    box-sizing: border-box;
+    /* el box-sizing incluye a margin y padding en el calculo para la distribucion de los blouqes */
+}
+.btn-precio{
+    background:#fcbf1e;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+
+}
+.btn-precio:hover{
+    background:#40bad5;
+}
+.btn-precio:active{
+    background: #035aa6;
+}
+.nocentro{
+    margin-left: 30px;
+    
+}
+@media(max-width: 1070px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 600px){
+    .columna{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
